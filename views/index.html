@@ -1,0 +1,7 @@
+<script src="https://unpkg.com/htmx.org@1.9.8"></script>
+<!-- have a button POST a click via AJAX -->
+<h1>{{.Title}}</h1>
+
+<p>[<a href="/edit/{{.Title}}">edit</a>]</p>
+
+<div>{{printf "%s" .Body}}</div>
